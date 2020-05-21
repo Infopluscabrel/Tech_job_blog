@@ -1,29 +1,107 @@
 body{
     font-family: "Open Sans", sans-serif,Arial, Helvetica, sans-serif;
     font-size: small;
-    padding:20px  40px;
-  }
+    padding:10px  20px;
+  } 
 
- .articles {
-     display: flex;
-     
- }
+  .presentation{
+       font-size: 30px;
+       font-weight: 800;
+    color:rgba(60, 49, 223, 0.932);
+  }
+  .bienvenue{
+    font-weight: 400;
+    font-size: 20px;
+  }
+.button{
+    color:white;
+    background-color: rgba(60, 49, 223, 0.932);;
+     font-weight: 600;
+     border: solid 1px;
+     border-radius: 10px;
+     border-color: white;
+}
+.plus{
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+ 
+
+
  .element{
+    margin:10px;
     padding:10px;
     border-radius: 30px;
-    border: solid 0.7px;
-    border-color: lightgrey;
+    /* border: solid 0.7px; */
     
+    border-color: lightgrey;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    background-color: white;
+    background-color:rgba(220, 239, 240,0.3);
+    justify-content: center !important;
+   
+ }
+ .rounded{
+     border: solid  0.5px;
+     border-color: lightgrey;
+     width:100%;
+     /* max-width: 350px; */
+     max-height: 250px;
+     text-align: center;
+     justify-content: center !important;
  }
  .titre{
      font-size:20px;
-     text-align: center;
+    
      font-weight: 600;
+    
  }
  .description{
-    text-align: center;
+    display: block;
+    font-size: 18px;
+       font-weight: 500;
+ }
+ .macategorie{
+    font-size: 18px;
+    font-weight: 500;
+    color:rgba(60, 49, 223, 0.932)
+ }
+ .info{
+     display: inline;
+     font-size: 16px;
+     font-weight: 700;
+     vertical-align: middle !important;
+ }
+ .rounded-circle{
+     max-width: 50px;
+
+ }
+ .appreciation{
+    background-color: white;
+ }
+ .icon{
+    color: rgba(60, 49, 223, 0.932);
+   
+ }
+ .profile{
+    display: inline;
+    font-size: 13px;
+    font-weight: 800;
+    vertical-align: middle !important;
+    color: royalblue;
+ }
+ .date {
+     font-size: 12px ;
+     font-weight: 500;
+     display: inline-block;
+     vertical-align: middle !important;
+ }
+ .voireprofile{
+     display: inline-block;
+     text-decoration: underline;
+     color:rgba(60, 49, 223, 0.932);
+     font-size: 14px ;
+     font-weight: 400;
  }
